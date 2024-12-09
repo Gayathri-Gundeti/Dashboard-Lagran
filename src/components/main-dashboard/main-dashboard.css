@@ -1,0 +1,41 @@
+.maindashboard-container{
+    /* background-color: rgb(221, 217, 217); */
+    /* height: 100vh; */
+    padding: 20px;
+    margin: 0 auto;
+    float: none;
+    width: auto;
+}
+.dashboard-title{
+    font-size: 30px;
+    font-weight: bold;
+   
+}
+.Card{
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 10px;
+    width: 250px;
+    height: 150px;
+   
+}
+.Card div{
+    margin-bottom: 10px;
+    color: gray;
+}
+.cards-part{
+    display: flex;
+    gap: 10px;
+    
+
+}
+@media screen and (max-width:776px){
+    .cards-part{
+        display: block;
+    }
+    .Card{
+        width: auto;
+    }
+}

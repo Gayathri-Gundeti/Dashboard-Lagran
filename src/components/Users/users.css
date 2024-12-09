@@ -1,0 +1,34 @@
+.user-container{
+    /* background-color: rgb(221, 217, 217); */
+    height: 100vh;
+    
+    
+}
+.table-size{
+    width: 95% !important;
+    margin: 0 auto;
+    float: auto;
+    border-radius: 10px !important;
+  
+}
+
+.user-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 22px;
+}
+.table-wrapper {
+    overflow-x: auto;
+    width: 100%;
+}
+
+@media screen and (max-width:526px){
+    .table-size{
+     width: 100%;
+    }
+    .table-wrapper {
+        overflow-x: auto;
+       
+    }
+    
+}
